@@ -2,7 +2,7 @@
 
 This project was assigned as part of my Data Structures & Algorithms II course.
 
-The purpose of this project is to determine the best route and delivery distribution for the a parcel service. There are 40 packages that must be split up across two trucks with 3 different drivers. Some packages have delivery constraints, and some have been delayed. Additionally, there is a package that initially has the wrong address and packages that must go out on the second truck.
+The purpose of this project is to determine the best route and delivery distribution for a parcel service. There are 40 packages that must be split up across two trucks with 3 different drivers. Some packages have delivery constraints, and some have been delayed. Additionally, there is a package that initially has the wrong address and packages that must go out on the second truck.
 
 A series of conditional statements are used to load the trucks based on the data that is provided. A greedy algorithm is used to optimize delivery of each package along the truck route. This algorithm is greedy because it determines the shortest available path from its current location then continues to do this until no additional packages remain.
 
